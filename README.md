@@ -62,6 +62,7 @@ distribution.
 Task 2:
 You need to calculate all the parameters for the two-class naive bayes classifiers respectively, based
 upon the 2-D data points you generated in Task 1 (In total, you should have 8 parameters).
+
 ● (No.1) Mean of feature1 for digit0
 
 ● (No.2) Variance of feature1 for digit0
