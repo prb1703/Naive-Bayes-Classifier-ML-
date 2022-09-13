@@ -9,6 +9,7 @@ A subset of MNIST dataset, download either from http://yann.lecun.com/exdb/mnist
 you to extract data corresponding to digit 0 and digit 1 only), or from the .mat files provided.
 
 Preparation
+
 First, when you open your lab, you will be in the 'renameNB' Jupyter notebook. As you run the code,
 you will load the trainset and testset for digit0 and digit1 respectively (Please read code and you will
 understand). Both trainset and testset are sub-dataset from the MNIST dataset. The MNIST dataset
@@ -34,14 +35,16 @@ You may go to the original MNIST dataset (available here http://yann.lecun.com/e
 extract the images for digit 0 and digit 1, to form the dataset for this project. To ease your effort, we
 have also extracted the necessary images, and store them in “.mat” files. You may use the following
 piece of code to read the dataset:
+
 ● import scipy.io
 
 ● Numpyfile= scipy.io.loadmat(‘matlabfile.mat’)
 
 
-2 Files for you to download: “CSE 575_Project 1 Mat Files” (attached in the project description in the
+Files for you to download: “CSE 575_Project 1 Mat Files” (attached in the project description in the
 course)
 Programming
+
 For your own code logic, you have 4 tasks to do:
 
 
