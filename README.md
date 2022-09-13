@@ -17,6 +17,7 @@ images. We use only a part of images for digit “0” and digit “1” in this
 Therefore, we have the following statistics for the given dataset:
 
 ● Number of samples in the training set: "0": 5000 ;"1": 5000.
+
 ● Number of samples in the testing set: "0": 980; "1": 1135
 
 We assume that the prior probabilities are the same (P(Y=0) = P(Y=1) =0.5), although you may have
@@ -34,6 +35,7 @@ extract the images for digit 0 and digit 1, to form the dataset for this project
 have also extracted the necessary images, and store them in “.mat” files. You may use the following
 piece of code to read the dataset:
 ● import scipy.io
+
 ● Numpyfile= scipy.io.loadmat(‘matlabfile.mat’)
 
 
@@ -61,12 +63,19 @@ Task 2:
 You need to calculate all the parameters for the two-class naive bayes classifiers respectively, based
 upon the 2-D data points you generated in Task 1 (In total, you should have 8 parameters).
 ● (No.1) Mean of feature1 for digit0
+
 ● (No.2) Variance of feature1 for digit0
+
 ● (No.3) Mean of feature2 for digit0
+
 ● (No.4) Variance of feature2 for digit0
+
 ● (No.5) Mean of feature1 for digit1
+
 ● (No.6) Variance of feature1 for digit1
+
 ● (No.7) Mean of feature2 for digit1
+
 ● (No.8) Variance of feature2 for digit1
 
 
